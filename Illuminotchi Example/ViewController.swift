@@ -13,7 +13,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        Illuminotchi.add(text: "Hey OMG its text!")
+        Illuminotchi.theyreWatching()
     }
 }
 

@@ -40,7 +40,7 @@ public final class Illuminotchi {
         self.shared._theyreWatchingYourScreenshots = true
     }
 
-    public class func add(image: UIImage, contentMode: UIViewContentMode = .scaleAspectFit) {
+    public class func add(image: UIImage?, contentMode: UIViewContentMode = .scaleAspectFit) {
         let imageView = UIImageView()
         imageView.contentMode = contentMode
         imageView.image = image
@@ -156,9 +156,9 @@ extension UIView {
 
 extension UIImage {
 
-    class var illuminati: UIImage {
+    class var illuminati: UIImage? {
         let bundle = Bundle(for: Illuminotchi.self)
-        return UIImage(named: "Illuminati", in: bundle, compatibleWith: nil)!
+        return UIImage(named: "Illuminati", in: bundle, compatibleWith: nil)
     }
 }
 

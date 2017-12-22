@@ -17,7 +17,20 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Illuminati_Meme.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="0tu-u2-7S7">
+                                <rect key="frame" x="47" y="203.5" width="280" height="280"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="BOK-j2-G7c"/>
+                                    <constraint firstAttribute="height" constant="280" id="yhl-Av-6hg"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0tu-u2-7S7" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="NWZ-6c-K0v"/>
+                            <constraint firstItem="0tu-u2-7S7" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="juQ-sr-Dpy"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -25,4 +38,7 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="Illuminati_Meme.jpg" width="600" height="711"/>
+    </resources>
 </document>
