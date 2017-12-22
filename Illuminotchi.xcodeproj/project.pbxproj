@@ -16,6 +16,9 @@
 		2632E93B1FEB85AD001353D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2632E9391FEB85AD001353D2 /* LaunchScreen.storyboard */; };
 		2632E9411FEB862F001353D2 /* Illuminotchi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2632E91C1FEB7BED001353D2 /* Illuminotchi.framework */; };
 		2632E9461FEC49BD001353D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2632E9451FEC49BD001353D2 /* Assets.xcassets */; };
+		26FC7EAB1FEC72D800629A32 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 26FC7EAA1FEC72D800629A32 /* README.md */; };
+		26FC7EAD1FEC739300629A32 /* Illuminati_Meme.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26FC7EAC1FEC739300629A32 /* Illuminati_Meme.jpg */; };
+		26FC7EAF1FECB74400629A32 /* Illuminati_Meme.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26FC7EAE1FECB74400629A32 /* Illuminati_Meme.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		2632E93A1FEB85AD001353D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2632E93C1FEB85AD001353D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2632E9451FEC49BD001353D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26FC7EAA1FEC72D800629A32 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		26FC7EAC1FEC739300629A32 /* Illuminati_Meme.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Illuminati_Meme.jpg; path = ../../Illuminati_Meme.jpg; sourceTree = "<group>"; };
+		26FC7EAE1FECB74400629A32 /* Illuminati_Meme.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Illuminati_Meme.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,7 @@
 		2632E9121FEB7BED001353D2 = {
 			isa = PBXGroup;
 			children = (
+				26FC7EAA1FEC72D800629A32 /* README.md */,
 				2632E91E1FEB7BED001353D2 /* Illuminotchi */,
 				2632E92F1FEB85AD001353D2 /* Illuminotchi Example */,
 				2632E91D1FEB7BED001353D2 /* Products */,
@@ -98,7 +105,9 @@
 				2632E9341FEB85AD001353D2 /* Main.storyboard */,
 				2632E9371FEB85AD001353D2 /* Assets.xcassets */,
 				2632E9391FEB85AD001353D2 /* LaunchScreen.storyboard */,
+				26FC7EAC1FEC739300629A32 /* Illuminati_Meme.jpg */,
 				2632E93C1FEB85AD001353D2 /* Info.plist */,
+				26FC7EAE1FECB74400629A32 /* Illuminati_Meme.jpg */,
 			);
 			path = "Illuminotchi Example";
 			sourceTree = "<group>";
@@ -212,6 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26FC7EAB1FEC72D800629A32 /* README.md in Resources */,
 				2632E9461FEC49BD001353D2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,7 +231,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2632E93B1FEB85AD001353D2 /* LaunchScreen.storyboard in Resources */,
+				26FC7EAD1FEC739300629A32 /* Illuminati_Meme.jpg in Resources */,
 				2632E9381FEB85AD001353D2 /* Assets.xcassets in Resources */,
+				26FC7EAF1FECB74400629A32 /* Illuminati_Meme.jpg in Resources */,
 				2632E9361FEB85AD001353D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
