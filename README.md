@@ -88,7 +88,7 @@ Illuminotchi.theyreWatchingYourScreenshots()
 
 The **Illuminotchi** are nefarious, there's no doubting that, but maybe their technology can be put to good use.
 
-You can use this library to add easter eggs for iPhoneX users when they take screenshots of your app! Other than that, theres not much. Fight the power, dont let big brother get you down, and for the love of God dont watch the new live action Tarzan movie. 
+You can use this library to add easter eggs for iPhoneX users when they take screenshots of your app! Other than that, theres not much. Fight the power, dont let big brother get you down, and for the love of God dont let your kids use Animoji. 
 
 ## Installation <a name="install"></a>
 
