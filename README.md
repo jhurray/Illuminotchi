@@ -66,7 +66,9 @@ Illuminotchi.add(customView: view)
 All views (text, image, custom) are bound by the size of the notch.
 
 ## I Don't Have an iPhoneX, Am I Safe?
-Probably not. 
+Probably not.
+
+<img src="./Images/Screenshot.gif" align="right" height="220px" hspace="10px">
 
 I also found that the **Illuminotchi** are watching our screenshots. When I run the following code, the [illuminati logo](https://assets.illuminati.mp/media/wp-content/uploads/2017/07/20160349/illuminati-members-portal-icon-illuminati.png) flashes very briefly every time I take a screenshot. 
 

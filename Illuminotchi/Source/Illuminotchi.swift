@@ -24,7 +24,7 @@ public final class Illuminotchi {
         let notificationCenter = NotificationCenter.default
         let keyWindowSelector = #selector(handle(windowDidBecomeKeyNotification:))
         notificationCenter.addObserver(self, selector: keyWindowSelector, name: .UIWindowDidBecomeKey, object: nil)
-        let screenshotSelector = #selector(handle(windowDidBecomeKeyNotification:))
+        let screenshotSelector = #selector(handle(didTakeScreenshotNotification:))
         notificationCenter.addObserver(self, selector: screenshotSelector, name: .UIApplicationUserDidTakeScreenshot, object: nil)
     }
 
@@ -86,15 +86,18 @@ public final class Illuminotchi {
             imageView.frame = CGRect(x: 0, y: 0, width: 200, height: 200)
             imageView.center = keyWindow.centerForSubview
             imageView.alpha = 0
-            imageView.transform = CGAffineTransform(scaleX: 0.7, y: 0.7)
             keyWindow.addSubview(imageView)
             keyWindow.bringSubview(toFront: imageView)
-            UIView.animate(withDuration: 0.1, delay: 0.05, options: .curveEaseInOut, animations: {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
                 imageView.alpha = 1
-                imageView.transform = .identity
-            }, completion: { (_) in
-                imageView.removeFromSuperview()
-            })
+                UIView.animate(withDuration: 0.5, delay: 0.0, options: .curveEaseInOut, animations: {
+                    imageView.alpha = 0
+                    imageView.transform = CGAffineTransform(scaleX: 2, y: 2)
+                }, completion: { (_) in
+                    imageView.removeFromSuperview()
+                })
+            }
+            
         }
 
     }

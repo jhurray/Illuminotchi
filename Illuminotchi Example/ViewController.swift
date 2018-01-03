@@ -13,7 +13,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        Illuminotchi.theyreWatching()
+        Illuminotchi.theyreWatchingYourScreenshots()
     }
 }
 
